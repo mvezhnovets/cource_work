@@ -1,0 +1,72 @@
+.content-three {
+  padding: 95px 0 50px;
+  background: #000;
+  &_rewiev {
+    @media only screen and (max-width: 768px) {
+      display: none;
+      min-width: 0;
+    }
+  }
+}
+.rewiev {
+  padding: 0 20px;
+  &__text {
+    flex: 1 1 auto;
+    text-align: center;
+    color: #ffffff;
+    &::before {
+      content: "“";
+      color: #ffffff;
+      flex: 0 1 auto;
+    }
+    &::after {
+      content: "”";
+      color: #ffffff;
+    }
+    @media only screen and (max-width: 768px) {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+  &__author {
+    text-align: center;
+    color: #ffffff;
+    margin: 17px 0 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    &::before {
+      content: " - ";
+      color: #ffffff;
+    }
+  }
+  &__author-status {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8a8a8a;
+  }
+}
+.content-three_rewiev {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.rewiev-content-slider {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}

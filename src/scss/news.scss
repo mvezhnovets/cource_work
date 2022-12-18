@@ -1,0 +1,51 @@
+.underline {
+  &::after {
+    content: "";
+    border-bottom: 1px solid #000;
+    display: block;
+    @media only screen and (max-width: 768px) {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+}
+.newspaper-block {
+  flex: 0 1 23%;
+  align-items: center;
+  margin: 59px auto 41px;
+  @media only screen and (max-width: 1200px) {
+    flex: 0 1 30%;
+    @media only screen and (max-width: 768px) {
+      display: none;
+      min-width: 0;
+    }
+  }
+  &__text {
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+      max-width: 90%;
+      margin: 25px auto 25px;
+    }
+    &::before {
+      content: "“";
+      color: #000;
+    }
+    &::after {
+      content: "”";
+      color: #000;
+    }
+  }
+  &__img {
+    display: block;
+    max-width: 100%;
+  }
+}
+.news-slider {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    img {
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,232 @@
+.footer {
+  background: #000;
+}
+.footer-row {
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+  }
+}
+.input-block {
+  flex: 0 1 50%;
+  @media only screen and (max-width: 992px) {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  &_title {
+    font-family: "Liberation Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 72px;
+    color: #ffffff;
+    margin: 45px 0 12px;
+    text-align: left;
+    @media only screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 50px;
+      margin: 30px 0 12px;
+    }
+  }
+  &_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    max-width: 424px;
+    text-align: left;
+    margin-bottom: 15px;
+    @media only screen and (max-width: 992px) {
+      max-width: 800px;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
+.link-block {
+  flex: 0 1 50%;
+  display: flex;
+  margin-top: 55px;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+  &_explore {
+    flex: 0 1 33.333%;
+  }
+  &_follow {
+    flex: 0 1 33.333%;
+  }
+  &_feedback {
+    flex: 0 1 33.333%;
+  }
+}
+.accord-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.footer-link {
+  &:first-of-type {
+    margin-top: 30px;
+  }
+  &_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+.footer-nav {
+  display: flex;
+  margin-top: 125px;
+  padding-bottom: 40px;
+  @media only screen and (max-width: 992px) {
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+.footer-logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+.footer-navigation {
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.footer_nav-list {
+  @media only screen and (max-width: 768px) {
+    margin-top: 10px;
+  }
+}
+.nav-list {
+  @media only screen and (max-width: 992px) {
+    margin-left: 20px;
+  }
+  &_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 60px;
+    @media only screen and (max-width: 992px) {
+      margin-left: 30px;
+      @media only screen and (max-width: 768px) {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.input-footer {
+  background: #000;
+  border-bottom: 1px solid #8a8a8a;
+  max-width: 440px;
+  display: flex;
+  justify-content: space-between;
+  @media only screen and (max-width: 992px) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+input {
+  background: #000;
+  padding: 18px 0 21px;
+}
+.input-email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #818181;
+}
+.input-submit {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  background: #000;
+  color: #ffffff;
+  :hover {
+    cursor: pointer;
+  }
+}
+.link-block-accord {
+  margin-top: 15px;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.accord-title-link {
+  text-align: center;
+  display: block;
+}
+.accord-title-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000;
+}
+.accord-link {
+  background: rgb(33, 33, 33);
+  border: 1px solid rgb(27, 27, 27);
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  &_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: 5px auto;
+  }
+}
+.accord-title-text-p {
+  margin: 10px auto;
+  max-width: 90%;
+}

@@ -1,0 +1,122 @@
+.row {
+  display: flex;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 60px;
+  margin: 0 auto;
+  @media only screen and (max-width: 1200px) {
+    padding: 0 45px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 0 15px;
+  }
+}
+.border {
+  &::after {
+    border-bottom: 1px solid #bdbdbd;
+  }
+}
+body {
+  background: #e5e5e5;
+}
+h1 {
+  margin: 35px 0;
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 96px;
+  color: #fff;
+  @media only screen and (max-width: 992px) {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 576px) {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+h2 {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+  @media only screen and (max-width: 768px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 576px) {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
+h3 {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+.text-upper {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.text-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.text-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.text-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #808080;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: #808080;
+}
+a:hover {
+  text-decoration: underline;
+}

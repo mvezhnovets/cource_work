@@ -1,0 +1,57 @@
+.banner {
+  @media only screen and (max-width: 1440px) {
+    left: 0;
+  }
+  &__subtitle {
+    margin-bottom: 45px;
+    color: #fff;
+    @media only screen and (max-width: 768px) {
+      line-height: 25px;
+    }
+  }
+  &__button {
+    width: 180px;
+    height: 52px;
+    background-color: inherit;
+    border: 1px solid #fff;
+    margin-bottom: 100px;
+    &:hover {
+      background-color: #fff;
+    }
+    &:active {
+      color: #000;
+      background: #e5e5e5;
+      border: 1px solid #e5e5e5;
+    }
+    @media only screen and (max-width: 1440px) {
+      left: 0;
+    }
+    @media only screen and (max-width: 1320px) {
+      background-color: #fff;
+    }
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+  .col {
+    flex: 0 1 50%;
+    padding: 180px 0 0 60px;
+    @media only screen and (max-width: 1200px) {
+      padding: 100px 0 0 45px;
+    }
+    @media only screen and (max-width: 768px) {
+      flex: 0 1 100%;
+      padding: 20px 45px 0;
+    }
+    @media only screen and (max-width: 576px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+    }
+  }
+  .banner-row {
+    justify-content: flex-end;
+  }
+}

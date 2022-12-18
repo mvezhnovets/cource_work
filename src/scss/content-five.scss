@@ -1,0 +1,102 @@
+.content-five {
+  background: url("./../image/content/five.png") 0 0 / cover no-repeat;
+  &_block {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 992px) {
+      margin: 0 auto;
+    }
+  }
+}
+.spotify {
+  background: #000;
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 20px;
+}
+.spotify-title {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 40px;
+  color: #ffffff;
+  @media only screen and (max-width: 768px) {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+.spotify-text {
+  max-width: 412px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 0 25px;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  @media only screen and (max-width: 576px) {
+    max-width: 90%;
+  }
+}
+.spotify-button {
+  width: 180px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  margin-bottom: 40px;
+  &:hover {
+    background: #000;
+    color: #ffffff;
+  }
+  &:active {
+    color: #000;
+    background: #e5e5e5;
+  }
+}
+.social {
+  background: #000;
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.social-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 0 17px;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.nav-social {
+  display: flex;
+  margin-bottom: 32px;
+  &_link {
+    padding: 0 10px;
+  }
+}
+.social-text {
+  color: #ffffff;
+}

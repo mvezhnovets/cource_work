@@ -1,0 +1,34 @@
+.delivery {
+  text-align: center;
+  position: relative;
+  background: #191919;
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 16px 0;
+  }
+}
+.cross {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  &__line {
+    border-top: 2px solid #000;
+    &:first-child {
+      transform: translateY(6px) rotate(45deg);
+    }
+    &:last-child {
+      transform: translateY(-4px) rotate(-45deg);
+    }
+  }
+}
